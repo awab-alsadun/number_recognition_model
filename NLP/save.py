@@ -2,7 +2,7 @@ from mnist import MNIST
 import numpy as np
 
 # Load EMNIST (only once)
-mndata = MNIST("C:/study/NLP/NLP/emnist/emnist_source_files")
+mndata = MNIST("your path of the EMNIST data")
 mndata.select_emnist('digits')
 images, labels = mndata.load_training()
 
